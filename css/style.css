@@ -1,0 +1,26 @@
+.espacamentoTabela {
+    margin-bottom:46px;
+}
+.legend legend{
+    border: 0;
+    width: 100%;
+    font-size:1.6em;
+    margin-bottom:20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.bgLogin { 
+background-image: url('../img/fisio.jpg');
+background-size: 100% auto;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.panel-login { 
+background-color: white;
+  border-color: #E7E7E7;
+  box-shadow: 0 0 5px #888888;
+  z-index: 99999 !important;
+  margin:0 auto;
+  margin-top: 20%;
+}
