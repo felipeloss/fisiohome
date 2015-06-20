@@ -1,0 +1,109 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fisioterapia</title>
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+        <link href="sass/materialize.scss" rel="stylesheet">
+    <script src="js/materialize.min.js" type="text/javascript" language="javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/collapsible.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/sideNav.js"></script>
+        <script src="js/global.js"></script>
+        <script>
+    $(document).ready(function() {
+      $(".button-collapse").sideNav();
+    });
+  </script>
+    <link rel="stylesheet" type="text/css" href="sass/materialize.sccs">
+</head>
+    <body>
+        <nav>
+    <div class="nav-wrapper ">
+        <a href="#" class="brand-logo center navLogo">LOGO</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="home.php">Contato</a></li>
+            <li><a href="javascript.html">Noixzs</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="home.php">Contato</a></li>
+            <li><a href="javascript.html">Noixzs</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+    </div>
+</nav>        <div class="container">
+            <div class="row">
+                <div class="col m3 l3">
+                    <div class="card brown lighten-5 z-depth-1">
+                        <div class="col l12">
+                            <img class="responsive-img circle " src="http://i01.i.aliimg.com/wsphoto/v0/32260248707_1/3pc-bag-2015-New-Sport-Knitting-wool-Headband-Women-s-Knitted-Headwear-headband-ear-warmers-for.jpg_200x200.jpg">
+                        </div>
+                        <div class="col l9 espacamentoTabela">
+                            <table>
+                                <tbody>
+                                <ul>
+                                    <li> <h4>Alvin Eclair</h4></li>
+                                    <li>Plano Recuperação II</li>
+                                    <li>321 12 1213</li>
+                                </ul>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m8 l9 legend">
+                 
+                    <div class="row">
+                         <div class="col l12">
+                            
+    <blockquote>
+      This is an example quotation that uses the blockquote tag.
+    </blockquote>
+         </div>
+                        <div class="col s12 m6 l6">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/thumb1.jpg">
+                                    <span class="card-title">Exercício 1</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="video.php">Ir para exercício 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col s12 m6 l6">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/thumb2.png">
+                                    <span class="card-title">Exercício 4</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="video.php">Ir para exercício 4</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php
+        include './partial/footer.php';
+        ?>
+    </body>
+</html>
