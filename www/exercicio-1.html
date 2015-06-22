@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Fisioterapia</title>
+    <title>Exercicios</title>
     <link href="css/materialize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
         <link href="sass/materialize.scss" rel="stylesheet">
@@ -25,46 +25,51 @@
     <body>
         <nav>
     <div class="nav-wrapper ">
-        <a href="#" class="brand-logo center navLogo">LOGO</a>
+        <a href="#" class="brand-logo center navLogo"><img src="img/logo-header.png" height="50px"/></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="panel.html">Pagina Inicial</a></li>
             <li><a href="home.php">Contato</a></li>
-            <li><a href="javascript.html">Noixzs</a></li>
+             <li><a href="index.html">Sair</a></li>
+        
         </ul>
         <ul class="side-nav" id="mobile-demo">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="panel.html">Pagina Inicial</a></li>
             <li><a href="home.php">Contato</a></li>
-            <li><a href="javascript.html">Noixzs</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
         </ul>
     </div>
-</nav>   
+</nav>  
         <?php
         include './partial/header.php';
         ?>
         <div class="container">
             <div class="row legend">
-                <h3>Exercício 1</h3>
+                <h3>Exercício 1  - Alongamento de Quadriceps</h3>
                 <div class="col m3 l3">
                           <div class="col l12">
                             
     <blockquote>
-      This is an example quotation that uses the blockquote tag.
-    </blockquote>
+        <label> Nivel de Dificuldade </label> 2 <br/>
+            <label> Foco</label> Flexibilidade e Força<br/>
+             <label> Músculos Envolvidos </label> Quadris, Músculos posteriores da coxa.<br/>
+             <label> Equipamento </label> Nenhum Equipamento<br/>
+        </blockquote>
          </div>
                 </div>
                 <div class="col m9 l9">
                     <div class="col m12 l12 s12 center-align">
                         <legend>
-                            I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
+                            <ul>
+                                <li> Selecione um Local amplo para relizar os exercícios </li>
+                                <li> Se possível assita o video antes de executar os movimentos </li>
+                                <li class="red-alert">  Atenção Caso não se sinta bem </br> PARE OS EXERCÍCIOS </span></LI>
+                        </ul>
                                 
                         </legend>
                     </div>
                     <div class="col m12">
 <video  class="col l12" controls autoplay> 
-  <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  <source src="vids/exercicio-1.mp4" type="video/mp4">
 
   </video>
                        
@@ -73,8 +78,6 @@
                 </div>
             </div>
         </div>
-        <?php
-        include './partial/footer.php';
-        ?>
+        
     </body>
 </html>

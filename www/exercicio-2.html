@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicios</title>
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+        <link href="sass/materialize.scss" rel="stylesheet">
+    <script src="js/materialize.min.js" type="text/javascript" language="javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/collapsible.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/sideNav.js"></script>
+        <script src="js/global.js"></script>
+        <script>
+    $(document).ready(function() {
+      $(".button-collapse").sideNav();
+    });
+  </script>
+    <link rel="stylesheet" type="text/css" href="sass/materialize.sccs">
+</head>
+    <body>
+        <nav>
+    <div class="nav-wrapper ">
+        <a href="#" class="brand-logo center navLogo"><img src="img/logo-header.png" height="50px"/></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="panel.html">Pagina Inicial</a></li>
+            <li><a href="home.php">Contato</a></li>
+             <li><a href="index.html">Sair</a></li>
+        
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="panel.html">Pagina Inicial</a></li>
+            <li><a href="home.php">Contato</a></li>
+        </ul>
+    </div>
+</nav>  
+        <?php
+        include './partial/header.php';
+        ?>
+        <div class="container">
+            <div class="row legend">
+                <h3>Exercício 2  - Alongamento da Lombar com rotação nos joelhos </h3>
+                <div class="col m3 l3">
+                          <div class="col l12">
+                            
+    <blockquote>
+        <label> Nivel de Dificuldade </label> 2 <br/>
+            <label> Foco</label> Flexibilidade e Força<br/>
+             <label> Músculos Envolvidos </label> Eretores da Espinha, iliocostal lombar e multifído.<br/>
+             <label> Equipamento </label> Nenhum Equipamento<br/>
+        </blockquote>
+         </div>
+                </div>
+                <div class="col m9 l9">
+                    <div class="col m12 l12 s12 center-align">
+                        <legend>
+                            <ul>
+                                <li> Selecione um Local amplo para relizar os exercícios </li>
+                                <li> Se possível assita o video antes de executar os movimentos </li>
+                                <li class="red-alert">  Atenção Caso não se sinta bem </br> PARE OS EXERCÍCIOS </span></LI>
+                        </ul>
+                                
+                        </legend>
+                    </div>
+                    <div class="col m12">
+<video  class="col l12" controls autoplay> 
+  <source src="vids/exercicio-2.mp4" type="video/mp4">
+
+  </video>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
